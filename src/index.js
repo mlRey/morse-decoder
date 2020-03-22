@@ -53,8 +53,6 @@ function decode(expr) {
             }
             rez += MORSE_TABLE[tmp];
         }
-
-
         tmp = '';
     }
     return (rez);
